@@ -5,8 +5,6 @@
 	This file is not actually a part of Corrosion.  It has been included in order
 	to get it to build with Catkin, since Catkin won't build subdirectories unless
 	it has a `package.xml` file.
-
-	Please do not publish this anywhere, as I pulled Andrew's email off of Github.
 -->
 <package format="2">
 	<name>corrosion</name>
@@ -16,4 +14,8 @@
 	</description>
 	<license>MIT</license>
 	<maintainer email="andrew.gaspar@outlook.com">Andrew Gaspar</maintainer>
+
+	<export>
+		<build_type>cmake</build_type>
+	</export>
 </package>
